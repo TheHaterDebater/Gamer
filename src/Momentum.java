@@ -12,6 +12,7 @@ public class Momentum {
         v = s.nextDouble();
         momentum = m * v;
         System.out.println(String.format("The object is moving at %.2f m/s", momentum));
+        System.out.println("Program ended");
     }
     
 }

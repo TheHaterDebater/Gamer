@@ -6,7 +6,7 @@ public class SalaryTable {
         System.out.println("YEAR\tOLD SALARY\tRAISE\tNEW SALARY");
         System.out.println("----\t----------\t-----\t----------");
         double salary = 40000, raise, salary2 = 40000;
-        System.out.println(" 1\t  40000  \t 0\t  40000");
+        System.out.println(" 1\t  0\t\t0\t  40000");
         for(int i = 1; i <= 10; i++){
             int x = i + 1;
             raise = salary * 0.03;

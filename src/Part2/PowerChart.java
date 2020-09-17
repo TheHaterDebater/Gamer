@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Part2;
+import java.util.Scanner;
 
-/**
- *
- * @author dami5080
- */
 public class PowerChart {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner s = new Scanner(System.in);
+        int x, ans;
+        System.out.print("Enter your number > ");
+        x = s.nextInt();
+        for(int i = 0; i <= x; i++){
+            ans = (int)(Math.pow(2, i));
+            System.out.println("2^" + i + " = " + ans);
+        }
     }
     
 }

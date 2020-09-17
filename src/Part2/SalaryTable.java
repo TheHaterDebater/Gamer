@@ -1,21 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Part2;
 
-/**
- *
- * @author dami5080
- */
 public class SalaryTable {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("YEAR\tOLD SALARY\tRAISE\tNEW SALARY");
+        System.out.println("----\t----------\t-----\t----------");
+        double salary = 40000, raise, salary2 = 40000;
+        System.out.println(" 1\t  40000  \t 0\t  40000");
+        for(int i = 1; i <= 10; i++){
+            int x = i + 1;
+            raise = salary * 0.03;
+            salary2 = salary2 + 1200;
+            System.out.format(" %d\t  %d  \t%d\t  %d\n", x, (int)salary2, (int)raise, (int)salary2);
+        }
     }
     
 }
